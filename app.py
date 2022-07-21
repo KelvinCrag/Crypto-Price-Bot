@@ -14,7 +14,7 @@ client = Client()
 def startPrivate(msg : types.Message):
     bot.send_message(
         msg.chat.id,
-        '<b>😄 Hey! Welcome to the iPap Crypto Bot! This Bot uses the Binance API, which enables you to get live information about the market value of various coins.\n\nUsage : /p <currency>\n\nFor any issues or queries, join @iPapCrypto</b>'.format(msg.from_user.first_name),
+        text="<b>😄 Hey! Welcome to the iPap Crypto Bot! This Bot uses the Binance API, which enables you to get live info about the market value of various coins.\n\nUsage : /p <currency>\n\nFor any issues or queries, join @iPapCrypto</b>",
         parse_mode='html',
         reply_to_message_id=msg.id,
         disable_web_page_preview=True
