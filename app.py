@@ -14,7 +14,7 @@ client = Client()
 def startPrivate(msg : types.Message):
     bot.send_message(
         msg.chat.id,
-        '<b>Hi😄 This Bot will help you to get info about the market value of various coins\n\nUsage : /p\n\nJoin @iPapCrypto for your Crypto updates</b>',
+        '<b>Hi! Welcome to @iPapkornCrypto Bot. This Bot will help you to get info on the current market value of various coins!\n\nUsage : /p</b>',
         parse_mode='html',
         reply_to_message_id=msg.id,
         disable_web_page_preview=True
